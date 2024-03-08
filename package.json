@@ -4,7 +4,7 @@
   "description": "random movie quote generator",
   "main": "index.js",
   "scripts": {
-    "start": "noode index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "afsal madathingal",
