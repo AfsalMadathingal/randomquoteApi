@@ -16,6 +16,13 @@ app.get('/random-movie-quote', (req, res) => {
   });
 
 
+  app.get('/ping', (req, res) => {
+
+    res.status(200).json(true)
+    
+  })
+
+
 
 app.listen(port, () => {
     console.log(`api app listening at http://localhost:${port}`)
